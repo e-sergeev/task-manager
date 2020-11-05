@@ -32,10 +32,18 @@
             </div>
           </div>
           <div class="burger-button">
-            <a href="#"><img class="burger-button__image" src="./burger.svg.png" alt="button"></a>
+            <input type="checkbox" id="check">
+            <label for="check"><img class="burger-button__image" src="./burger.svg.png" alt="button"></label>
+            <div class="dropdown">
+              <a href="#" class="nav-item__link">Главная</a>
+              <a href="#" class="nav-item__link">О компании</a>
+              <a href="#" class="nav-item__link">Сотрудники</a>
+              <a href="#" class="nav-item__link">Контакты</a>
+            </div>
           </div>
         </div>
       </header>
+
       <noscript>
         <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
       </noscript>
